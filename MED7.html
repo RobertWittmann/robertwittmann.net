@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Wittmann // 02</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,100;1,300&display=swap" rel="stylesheet"> 
+    <link href="/tailwind.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="fav.ico">
+</head>
+<body class="bg-white">
+  <div class="block md:hidden top-0 shadow-md p-4 w-full h-16 mx-auto md:w-auto cursor-pointer z-30 duration-150 ease-in-out bg-warmGray-100 fixed bg-red" id="burger">
+    <svg class="h-full w-auto mx-auto flex fill-current duration-150" id="burger_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>ic_menu_24px</title>
+        <g fill="#FFFFFF">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </g>
+    </svg>
+  </div>
+  <div class="bg-red md:h-56 md:p-8 md:left-16 fixed md:pt-10 z-10 h-0 w-full md:w-auto menu_items -top-0 md:top-0 duration-300 ease-in-out">
+    <a href="index.html" class="hidden md:block">
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="34.338" viewBox="0 0 48 34.338">
+        <path id="Path_1" data-name="Path 1" d="M20.639,34.245a2.074,2.074,0,0,1-1.518-.661L5.733,18.92a1.427,1.427,0,0,1,2.089-1.9L19.9,30.243V11.36a8.535,8.535,0,0,0-17.047-.014V32.817a1.427,1.427,0,0,1-2.855,0V11.346a11.366,11.366,0,1,1,22.732,0v20.81A2.093,2.093,0,0,1,20.639,34.245Z" transform="translate(0 0.094)" fill="#fff"/>
+        <path id="Path_2" data-name="Path 2" d="M55.168,34.163H53.717V1.364a1.456,1.456,0,1,1,2.907,0v29.83a18.079,18.079,0,0,0,16.609-18V1.364a1.456,1.456,0,1,1,2.907,0V13.192A20.991,20.991,0,0,1,55.168,34.163Z" transform="translate(-28.159 0.175)" fill="#fff"/>
+        <path id="Path_3" data-name="Path 3" d="M85.442,31.551a1.427,1.427,0,0,1-.728-.2A21,21,0,0,1,74.247,13.192V1.364a1.456,1.456,0,1,1,2.907,0V13.192a18.079,18.079,0,0,0,9.04,15.643,1.456,1.456,0,0,1-.733,2.717Z" transform="translate(-38.922 0.175)" fill="#fff"/>
+      </svg>
+    </a>
+    <ul class="bg-red md:bg-transparent text-white font-mono uppercase underline text-md md:text-sm shadow-md md:shadow-none absolute bottom-6 w-full text-center md:text-left pt-6 md:pt-0 pb-2 md:pb-0">
+      <li class="mb-4 md:mb-2"><a href="index.html">Work</a></li>
+      <li class="mb-4 md:mb-2"><a href="etc.html">Etc.</a></li>
+      <li class="mb-4 md:mb-2"><a href="about.html">About</a></li>
+      <div class="hidden md:block absolute w-1 h-1 rounded-full bg-white -left-3 bottom-18"></div>
+    </ul>
+  </div>
+  <!-- Landing -->
+  <div class="text-blue">
+    <img src="img/livingroomroom.png" class="hidden md:block absolute left-0 top-0 w-full h-halfscreen min-h-600 object-cover" alt="">
+    <div class="relative bg-white sm:w-full lg:w-1/2 lg:min-w-800 block mt-24 md:mt-48 m-auto shadow-xl pl-12 pr-12 md:pl-24 md:pr-24 pb-32 md:pb-16">
+      <h2 class="text-4xl text-center pt-16 md:pt-24 pb-8 md:pb-16">02 - Using VR to help with Fear Avoidance</h2>
+      <div class="md:flex w-full md:w-4/5 m-auto justify-between text-center">
+        <div>
+            <h3 class="mt-8 md:mt-0 text-2xl md:pb-2">Setting</h3>
+            <p class="font-light text-xl">Semester Project</p>
+          </div>
+          <div>
+            <h3 class="mt-8 md:mt-0 text-2xl md:pb-2">Role</h3>
+            <p class="font-light text-xl">
+              UX Designer <br/>
+              Game Designer <br/>
+              3D Artist
+            </p>
+          </div>
+          <div>
+            <h3 class="mt-8 md:mt-0 text-2xl md:pb-2">Duration</h3>
+            <p class="font-light text-xl">
+              September-December <br/>
+              2018
+            </p>
+          </div>
+        </div>
+        <div class="w-full m-auto pb-16">
+          <h3 class="text-2xl pb-4 pt-12">What We Wanted</h3>
+          <p class="text-justify font-light">
+            After conducting interviews with a physical therapist we learned that people who suffer from chronic back pain endure the risk of having fear avoidance associated with it. Fear avoidance, in this case, means avoiding doing the motion which causes the pain, and thereby inhibiting recovery. Over time this pain/fear would occur earlier and earlier in the movement — e.g. pain at 90° at first, but later already at 80°. Our idea was therefore to use VR to scale the user's rotation, thereby allowing the user to rotate until physical discomford rather than fear, which would aid their physical rehabilitation.
+          </p>
+          <img class="mt-8 m-auto" src="img/med7gif.gif" alt="">
+          <h3 class="text-2xl pb-4 pt-12">What Happened</h3>
+          <p class="text-justify font-light pb-4">
+            We created a game where the purpose is to sort fruit, something everyone can relate to (the scenario was not as important as keeping the user engaged). All apples should be placed to the right and all oranges to the left. The player is placed with a circular table surrounding them. A fruit would then spawn in front of them and they would grab it, rotate as far as they could and place the fruit, alternating between left and right. The further they rotate the more points they score. Graphics indicated how far they rotated compared to their last movement. 
+          </p>
+          <p class="text-justify font-light pb-4">
+            The testing was conducted under four conditions: (1) No scaling of movement and no representation of the player's body; (2) scaling of movement and no representation of the body; (3) no scaling of movement with a representation of the player's body; and (4) scaling of movement with a representation of the body. The scaling of the rotation varied within different sortings, with feedback regarding each factor of scaling. The scaling works in such a way that the player would perceive a rotation which was smaller than their physical movement. As an example: a physical rotation of 70° could be perceived as a rotation of only 60°, thereby encouraging movement beyond the limit caused by fear avoidance. The scaling was limited to a degree that wouldn't cause kinaestetic discomford or in other ways break the "illusion"  — though some limits were found with user testing, something like a 200% scale was discovered as a bad idea quite early on!
+          </p>
+          <div class="w-full grid md:grid-cols-2 gap-8 mb-8 justify-between">
+            <img class="" src="img/avatar-off.png" alt="">
+            <img class="" src="img/avataron.png" alt="">
+          </div>
+          <p class="text-justify font-light clear-both">
+            My main roles in the project were as a designer - both graphically and game related, and that of tester. The VR setting of the prototype was within a living room asset found on the Unity store. The setting was chosen to help the user relax, and also to represent their own homes, as this project would allow the patient to do rehabilitation exercises at home. The other assets were created in Maya and zBrush, except the body representation which was made in Adobe Fuse (cause creating a realistic human body is quite the hassle). As for the UI the wasn't much. The table texture had arrows and icons indicating which direction to turn for which fruit, and small spheres appeared as the user rotated, each indicating 1 point the user would get when dropping the fruit.
+          </p>
+          <img class="mt-8 w-5/12 m-auto" src="img/anglesnap.png" alt="">
+          <h3 class="text-2xl pb-4 pt-12">What That Meant </h3>
+          <p class="text-justify font-light">
+            As fixing someone's spine is usually handled by professionals, our testing ended up being limited to healthy adults, and the therapist we were in contact with during this project. The idea was solid and the gamification increased the engagement though it could have been deepened with other mechanics like rewards or other types of progession, to incentivise further use. As a first scientific paper it was quite a good experience.          </p>
+        </div>
+
+        <a href="https://robertwittmann.net/papers/MED7.pdf" target="_blank" class="float-left clear-both underline mb-4 font-mono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="float-left mr-2" width="16" height="15.998" viewBox="0 0 16 15.998">
+            <g id="link-72" transform="translate(-2 -2.004)">
+              <path id="Path_12" data-name="Path 12" d="M11.685,12.35a3.972,3.972,0,0,0-1.489-.935l-.265.265a1.7,1.7,0,0,0-.424.727,2.849,2.849,0,0,1,1.37,4.793L8.02,20.055a2.857,2.857,0,0,1-4.041-4.04l2.126-2.127a5.106,5.106,0,0,1-.106-1,5.2,5.2,0,0,1,.03-.543l0,0L3.171,15.207a4,4,0,1,0,5.657,5.656l2.857-2.856a4,4,0,0,0,0-5.657Z" transform="translate(0 -4.033)" fill="#3c448e"/>
+              <path id="Path_13" data-name="Path 13" d="M20.686,3.174a4,4,0,0,0-5.657,0L12.172,6.03a3.99,3.99,0,0,0,1.489,6.592l.265-.265a1.7,1.7,0,0,0,.424-.726,2.85,2.85,0,0,1-1.37-4.793l2.857-2.857a2.857,2.857,0,0,1,4.041,4.041l-2.123,2.123a5.1,5.1,0,0,1,.1,1,5.2,5.2,0,0,1-.03.543l0,0,2.857-2.857a4,4,0,0,0,0-5.657Z" transform="translate(-3.858)" fill="#3c448e"/>
+            </g>
+          </svg>
+          Link to the full paper
+        </a>
+        <a href="https://robertwittmann.net/papers/MED7WS.pdf" target="_blank" class="float-left clear-both underline mb-4 font-mono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="float-left mr-2" width="16" height="15.998" viewBox="0 0 16 15.998">
+            <g id="link-72" transform="translate(-2 -2.004)">
+              <path id="Path_12" data-name="Path 12" d="M11.685,12.35a3.972,3.972,0,0,0-1.489-.935l-.265.265a1.7,1.7,0,0,0-.424.727,2.849,2.849,0,0,1,1.37,4.793L8.02,20.055a2.857,2.857,0,0,1-4.041-4.04l2.126-2.127a5.106,5.106,0,0,1-.106-1,5.2,5.2,0,0,1,.03-.543l0,0L3.171,15.207a4,4,0,1,0,5.657,5.656l2.857-2.856a4,4,0,0,0,0-5.657Z" transform="translate(0 -4.033)" fill="#3c448e"/>
+              <path id="Path_13" data-name="Path 13" d="M20.686,3.174a4,4,0,0,0-5.657,0L12.172,6.03a3.99,3.99,0,0,0,1.489,6.592l.265-.265a1.7,1.7,0,0,0,.424-.726,2.85,2.85,0,0,1-1.37-4.793l2.857-2.857a2.857,2.857,0,0,1,4.041,4.041l-2.123,2.123a5.1,5.1,0,0,1,.1,1,5.2,5.2,0,0,1-.03.543l0,0,2.857-2.857a4,4,0,0,0,0-5.657Z" transform="translate(-3.858)" fill="#3c448e"/>
+            </g>
+          </svg>
+          Link to the worksheets
+        </a>
+        <div class="flex clear-both justify-between underline mt-48">
+          <a href="index.html" class="font-mono text-sm">Back to Projects</a>
+          <a href="masterthesis.html" class="font-mono text-sm">01 - Eye Tracking Immersion</a>
+          <a href="MED5.html" class="font-mono text-sm">03 - VR with Physical Objects</a>
+        </div>
+      </div>
+  </div>
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

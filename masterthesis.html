@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Wittmann // 01</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,100;1,300&display=swap" rel="stylesheet"> 
+    <link href="/tailwind.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="fav.ico">
+</head>
+<body class="bg-white">
+  <div class="block md:hidden top-0 shadow-md p-4 w-full h-16 mx-auto md:w-auto cursor-pointer z-30 duration-150 ease-in-out bg-warmGray-100 fixed bg-red" id="burger">
+    <svg class="h-full w-auto mx-auto flex fill-current duration-150" id="burger_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>ic_menu_24px</title>
+        <g fill="#FFFFFF">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </g>
+    </svg>
+  </div>
+  <div class="bg-red md:h-56 md:p-8 md:left-16 fixed md:pt-10 z-10 h-0 w-full md:w-auto menu_items -top-0 md:top-0 duration-300 ease-in-out">
+    <a href="index.html" class="hidden md:block">
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="34.338" viewBox="0 0 48 34.338">
+        <path id="Path_1" data-name="Path 1" d="M20.639,34.245a2.074,2.074,0,0,1-1.518-.661L5.733,18.92a1.427,1.427,0,0,1,2.089-1.9L19.9,30.243V11.36a8.535,8.535,0,0,0-17.047-.014V32.817a1.427,1.427,0,0,1-2.855,0V11.346a11.366,11.366,0,1,1,22.732,0v20.81A2.093,2.093,0,0,1,20.639,34.245Z" transform="translate(0 0.094)" fill="#fff"/>
+        <path id="Path_2" data-name="Path 2" d="M55.168,34.163H53.717V1.364a1.456,1.456,0,1,1,2.907,0v29.83a18.079,18.079,0,0,0,16.609-18V1.364a1.456,1.456,0,1,1,2.907,0V13.192A20.991,20.991,0,0,1,55.168,34.163Z" transform="translate(-28.159 0.175)" fill="#fff"/>
+        <path id="Path_3" data-name="Path 3" d="M85.442,31.551a1.427,1.427,0,0,1-.728-.2A21,21,0,0,1,74.247,13.192V1.364a1.456,1.456,0,1,1,2.907,0V13.192a18.079,18.079,0,0,0,9.04,15.643,1.456,1.456,0,0,1-.733,2.717Z" transform="translate(-38.922 0.175)" fill="#fff"/>
+      </svg>
+    </a>
+    <ul class="bg-red md:bg-transparent text-white font-mono uppercase underline text-md md:text-sm shadow-md md:shadow-none absolute bottom-6 w-full text-center md:text-left pt-6 md:pt-0 pb-2 md:pb-0">
+      <li class="mb-4 md:mb-2"><a href="index.html">Work</a></li>
+      <li class="mb-4 md:mb-2"><a href="etc.html">Etc.</a></li>
+      <li class="mb-4 md:mb-2"><a href="about.html">About</a></li>
+      <div class="hidden md:block absolute w-1 h-1 rounded-full bg-white -left-3 bottom-18"></div>
+    </ul>
+  </div>
+  <!-- Landing -->
+  <div class="text-blue">
+      <!-- <div id="project_1_page" class="hidden md:block absolute left-0 top-0 w-full h-halfscreen min-h-600">
+      </div> -->
+      <img src="img/eyetracking3.jpg" class="hidden md:block absolute left-0 top-0 w-full h-halfscreen min-h-600 object-cover" alt="">
+      <div class="relative bg-white sm:w-full lg:w-1/2 lg:min-w-800 block mt-24 md:mt-48 m-auto shadow-xl pl-8 pr-8 sm:pl-12 sm:pr-12 md:pl-24 md:pr-24 pb-64 sm:pb-32 md:pb-16">
+        <h2 class="text-4xl text-center pt-16 md:pt-24 pb-8 md:pb-16">01 - The Effect of Eye Tracking on Immersion</h2>
+        <div class="md:flex w-full md:w-4/5 m-auto justify-between text-center">
+          <div>
+            <h3 class="mt-8 md:mt-0 text-2xl md:pb-2">Setting</h3>
+            <p class="font-light text-xl">Master Thesis</p>
+          </div>
+          <div>
+            <h3 class="mt-8 md:mt-0 text-2xl md:pb-2">Role</h3>
+            <p class="font-light text-xl">
+              UX Designer <br/>
+              Game Designer <br/>
+              3D Artist
+            </p>
+          </div>
+          <div>
+            <h3 class="mt-8 md:mt-0 text-2xl md:pb-2">Duration</h3>
+            <p class="font-light text-xl">
+              February-June <br/>
+              2020
+            </p>
+          </div>
+        </div>
+        <div class="w-full m-auto pb-16">
+          <h3 class="text-2xl pb-4 pt-12">What We Wanted</h3>
+          <p class="text-justify font-light">
+            Through research, a gap was found regarding the effect on immersion and user engagement when using eye-tracking as an input modality. To deter any bias based on the game’s possible narrative themes, we decided to create an emergent narrative — also cause none of us had worked with it before. So the idea was simple (I suppose): Create an emergent narrative game with two modes: controlling with keyboard+mouse and controlling with keyboard+eye-tracking.
+          </p>
+          <img class="mt-8 m-auto w-3/5" src="img/med10gif.gif" alt="">
+          <h3 class="text-2xl pb-4 pt-12">What Happened</h3>
+          <p class="text-justify font-light pb-4">
+            As eye-tracking needed to be in focus throughout development, all design aspects were made with this in mind. The main purpose of the game would be to explore — well, and to look, which could easily be translated from eye-tracking to mouse-input. The final game features an isometric procedurally generated world for the player to explore. The world has a predefined size, but the objects within it appear at random. When the player interacts (stares/hovers) on a particular object for an extended amount of time, the object becomes activated and thereby dictates which biome (out of 4) future objects will spawn from. To encourage looking around in the environment the world is, be default, completely desaturated, but wherever the player looks a cone of vision reveals the colours of the world.
+          </p>
+          <img class="mb-8 mt-4" src="img/villagetex.jpg" alt="">
+          <p class="text-justify font-light pb-4">
+            My main role in the project was as a designer, both regarding graphics and game, while the two other members did most of the programming and writing. We had no options for lo-fi prototyping due to the quarantine, so we opted for “in-house” testing of mechanics, seeing how they felt and how they fit with our goals. In terms of graphics I went with a low-poly aesthetic to decrease the workload using a mix of zBrush and Maya. All biome-textures (the ones on the ground) were done in Substance Designer. Lastly for the visuals, I also handled making the Unity shaders (with graphs, cause otherwise we’d never have finished) used for the cone of vision, and the effects appearing when activating an object.
+          </p>
+          <p class="text-justify font-light">
+            As for the UI the game was pretty barebone — no distractions. We included “golden objects” as a secret objective of the game, where once all 4 were found and activated a message congratulated the player. The only UI elements were: numbers indicating how many of the golden objects were found out of the total four; and an end-screen showing a birds-eye screenshot of the world they had created through their playthrough.
+          </p>
+          <img class="mb-4 mt-8" src="img/goldenobjects.jpg" alt="">
+          <h3 class="text-2xl pb-4 pt-12">What That Meant </h3>
+          <p class="text-justify font-light">
+            Though the production of the game could be called a success, and a lot of fun, our testing did not reveal any significal relation between the input modality and the users’ engagement, immersion, or perfomance. This could be due to unclear interactions, which would have been circumvented had we been able to do the tests in person but due to the pandemic we chose not to. My work on narrative theory, graphics, and game design, helped to get a better feel for the production pipeline. We went back and forth with a lot of concepts which never felt like an issue, as long as we kept a clear sense of communication.
+          </p>
+        </div>
+
+        <a href="https://robertwittmann.net/papers/MED10.pdf" target="_blank" class="float-left clear-both underline mb-4 font-mono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="float-left mr-2" width="16" height="15.998" viewBox="0 0 16 15.998">
+            <g id="link-72" transform="translate(-2 -2.004)">
+              <path id="Path_12" data-name="Path 12" d="M11.685,12.35a3.972,3.972,0,0,0-1.489-.935l-.265.265a1.7,1.7,0,0,0-.424.727,2.849,2.849,0,0,1,1.37,4.793L8.02,20.055a2.857,2.857,0,0,1-4.041-4.04l2.126-2.127a5.106,5.106,0,0,1-.106-1,5.2,5.2,0,0,1,.03-.543l0,0L3.171,15.207a4,4,0,1,0,5.657,5.656l2.857-2.856a4,4,0,0,0,0-5.657Z" transform="translate(0 -4.033)" fill="#3c448e"/>
+              <path id="Path_13" data-name="Path 13" d="M20.686,3.174a4,4,0,0,0-5.657,0L12.172,6.03a3.99,3.99,0,0,0,1.489,6.592l.265-.265a1.7,1.7,0,0,0,.424-.726,2.85,2.85,0,0,1-1.37-4.793l2.857-2.857a2.857,2.857,0,0,1,4.041,4.041l-2.123,2.123a5.1,5.1,0,0,1,.1,1,5.2,5.2,0,0,1-.03.543l0,0,2.857-2.857a4,4,0,0,0,0-5.657Z" transform="translate(-3.858)" fill="#3c448e"/>
+            </g>
+          </svg>
+          Link to the full paper
+        </a>
+        <a href="https://robertwittmann.net/papers/MED10WS.pdf" target="_blank" class="float-left clear-both underline mb-4 font-mono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="float-left mr-2" width="16" height="15.998" viewBox="0 0 16 15.998">
+            <g id="link-72" transform="translate(-2 -2.004)">
+              <path id="Path_12" data-name="Path 12" d="M11.685,12.35a3.972,3.972,0,0,0-1.489-.935l-.265.265a1.7,1.7,0,0,0-.424.727,2.849,2.849,0,0,1,1.37,4.793L8.02,20.055a2.857,2.857,0,0,1-4.041-4.04l2.126-2.127a5.106,5.106,0,0,1-.106-1,5.2,5.2,0,0,1,.03-.543l0,0L3.171,15.207a4,4,0,1,0,5.657,5.656l2.857-2.856a4,4,0,0,0,0-5.657Z" transform="translate(0 -4.033)" fill="#3c448e"/>
+              <path id="Path_13" data-name="Path 13" d="M20.686,3.174a4,4,0,0,0-5.657,0L12.172,6.03a3.99,3.99,0,0,0,1.489,6.592l.265-.265a1.7,1.7,0,0,0,.424-.726,2.85,2.85,0,0,1-1.37-4.793l2.857-2.857a2.857,2.857,0,0,1,4.041,4.041l-2.123,2.123a5.1,5.1,0,0,1,.1,1,5.2,5.2,0,0,1-.03.543l0,0,2.857-2.857a4,4,0,0,0,0-5.657Z" transform="translate(-3.858)" fill="#3c448e"/>
+            </g>
+          </svg>
+          Link to the worksheets
+        </a>
+        <div class="sm:flex clear-both justify-between underline mt-32 sm:mt-48">
+          <a href="index.html" class="clear-both float-left sm:clear-none pb-4 sm:pb-0 font-mono text-sm">Back to Projects</a>
+          <a href="MED7.html" class="clear-both float-left sm:clear-none pb-4 sm:pb-0 font-mono text-sm">02 - VR Fear Avoidance</a>
+          <a href="MED5.html" class="clear-both float-left sm:clear-none pb-4 sm:pb-0 font-mono text-sm">03 - VR with Physical Objects</a>
+        </div>
+      </div>
+  </div>
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* 
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+*/
+
+.landing_svg{
+    max-height: 85vh;
+}
+
+
+#project_1{
+    background: url("img/eyetracking3.jpg") center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#project_1_page{
+    background: url("img/eyetracking3.jpg") center;
+    background-size: cover;
+}
+
+#project_2{
+    background: url("img/livingroomroom.png") bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#project_2_page{
+    background: url("img/livingroomroom.png") bottom;
+    background-size: cover;
+}
+
+#project_3{
+    background: url("img/physicalvr.jpg") bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#project_3_page{
+    background: url("img/physicalvr.jpg") bottom;
+    background-size: cover;
+}
+
+#project_4{
+    background: url("img/codeteaching.png") fixed bottom;
+}
+
+#etc-list{
+    grid-auto-rows: 1fr;
+}
+
+.etc-background{
+    background: #ffe8c4 url("img/gray-floral.png") repeat fixed;
+}
+
+@media screen and (max-width: 768px) {
+    #project_1{
+        background: url("img/eyetracking.jpg") fixed center;
+    }
+    
+    #project_2{
+        background: url("img/livingroomroom.png") fixed center;
+    }
+    
+    #project_3{
+        background: url("img/physicalvr.jpg") fixed center;
+    }
+}
